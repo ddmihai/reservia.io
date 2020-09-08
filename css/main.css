@@ -95,6 +95,16 @@ header ul li:hover {
 header ul li:first-child:hover {
     border: none;
 }
+/* HOVER ELEMENTS */
+.hero__filters ul li:hover {
+    background: #DEEBFF;
+    color: white;
+    transition: all ease-in 0.5s;
+    cursor: pointer;
+}
+.hero__filters ul li a:hover {
+    color: #0065FC;
+}
 
 
 
@@ -154,6 +164,7 @@ header ul li:first-child:hover {
     border-top-right-radius: .5em;
     background: #0065FC;
     height: 100%;
+    cursor: pointer;
 }
 
 /* FILTERS SECTION CSS */
@@ -354,6 +365,7 @@ bellow will be set the flex order of li content */
     border-radius: 1em;
     display: flex;
     box-shadow: 3px 3px 3px lightgray;
+    cursor: pointer;
 }
 /* the popular card is divided in two parts. the first is the image itself. the second one is the div that contains the title, subtitle, price, and the stars. 
 the second div is also set in flex mode and flex direction is set to column, align items space between or evenly */
@@ -398,9 +410,16 @@ the second div is also set in flex mode and flex direction is set to column, ali
     max-height: 320px;
     margin-left: 1%;
     margin-bottom: 1.5%;
+    cursor: pointer;
 }
 /* nth child */
-
+.activity__card:nth-child(2) {
+    background: rebeccapurple;
+}
+.activity__card:nth-child(3) {
+    background: rebeccapurple;
+    
+}
 
 
 
