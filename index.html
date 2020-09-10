@@ -23,9 +23,9 @@
     <header>
         <ul>
             <li class="logo"><img src="images/logo/Reservia.svg" alt="reseervia blue logo"></li>
-            <li class="second"><a href="#"> Accomodations</a></li>
-            <li class="third"><a href="#" class="gray"> Activities</a></li>
-            <li class="last"><a href="#" class="signup"> Sign Up</a></li>
+            <li class="second"><a href="#accomodation-marseille"> Accomodations</a></li>
+            <li class="third"><a href="#activities" class="gray"> Activities</a></li>
+            <li class="last"><a href="#footer" class="signup"> Sign Up</a></li>
         </ul>
     </header>
 
@@ -66,7 +66,7 @@
 <!-- ACCOMODATION -->
 
     <section class="accomodation">
-        <div class="accomodation__marseille">
+        <div class="accomodation__marseille" id="accomodation-marseille">
             <div class="accomodation__title">Accomodations in Marseille</div>
             <div class="marseille__card">
                     <div class="card__img"><img src="images/marseille/1.jpg" alt="hotel room"></div>
@@ -112,7 +112,7 @@
             <div class="accomodation__title--bottom">Show More</div>
         </div>
 
-        <div class="accomodation__popular">
+        <div class="accomodation__popular" id="accomodations-popular">
             <div class="accomodation__popular--title">Most popular   <i class="fa icon">&#xf201;</i></div>
             <div class="popular__card">
                 <div class="popular__img"><img src="images/marseille/right-1.jpg" alt="hotel room promo"></div>
@@ -145,22 +145,49 @@
 
 <!-- ACTIVITIES -->
 
-    <section class="activities">
-       <div class="activities__title">Activities</div>
-       <div class="activities__cards--section">
-           <div class="activity__card"></div>
-           <div class="activity__card"></div>
-           <div class="activity__card"></div>
-           <div class="activity__card"></div>
-           <div class="activity__card"></div>
-           <div class="activity__card"></div>
-       </div>
-        
+    <section class="activities" id="activities">
+
+       <div class="activities__title">Activities in Marseille</div>
+
+       <div class="activity__container">
+
+            <div class="card">
+                <div class="img__container"><img src="images/activities/activity.jpg" alt="a monastery on a hill"></div>
+                <div class="title__container">Notre-Dame-de-la-Garde</div>
+            </div>
+
+            <div class="row__activity">
+                <div class="card">
+                    <div class="img__container"><img src="images/activities/activity (6).jpg" alt="a naval port with boats"></div>
+                    <div class="title__container">Old Port</div>
+                </div>
+                <div class="card">
+                    <div class="img__container"><img src="images/activities/activity (5).jpg" alt="a rock castle on a stone hill"></div>
+                    <div class="title__container">Pomegues Fort</div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img__container"><img src="images/activities/activity (4).jpg" alt="beautiful fountain"></div>
+                <div class="title__container">Longchamp Park</div>
+            </div>
+
+            <div class="row__activity">
+                <div class="card">
+                    <div class="img__container"><img src="images/activities/activity (3).jpg" alt="nice sea landscape"></div>
+                    <div class="title__container">Fiour Island</div>
+                </div>
+                <div class="card">
+                    <div class="img__container"><img src="images/activities/activity (2).jpg" alt="beautiful sea view"></div>
+                    <div class="title__container">Calanques National Park</div>
+                </div>
+            </div>
+    
+        </div>
     </section>
 
 <!-- FOOTER -->
-
-    <footer>
+    <footer id="footer">
         <div class="footer__about">
             <ul>
                 <li>About</li>
